@@ -1,26 +1,80 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Learning AWS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        .titlebar {
-            background-color: #6298e0;
-            text-align: center;
-            padding: 5px;
-            color: white;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AWS Cloud Basics</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f9fa;
+      color: #232f3e;
+    }
+    header {
+      background-color: #232f3e;
+      color: #ff9900;
+      padding: 24px;
+      text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: 32px auto;
+      padding: 0 16px;
+    }
+    .card {
+      background: #ffffff;
+      border: 1px solid #e1e4e8;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #161e2d;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
-
 <body>
-    <div class="titlebar">
-        <h1>Learning DevOps in</h1> <img src="AWS_logo.png" /><br />
-	<h1><strong>Executing v1 on AWS Fargate</strong></h1>
 
-    </div>
+  <header>
+    <h1>AWS Cloud Essentials</h1>
+    <p>A quick overview of key Amazon Web Services</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Amazon EC2 (Elastic Compute Cloud)</h2>
+      <p>Provides resizable, scalable virtual servers (instances) to run applications in the cloud with full administrative control.</p>
+    </section>
+
+    <section class="card">
+      <h2>Amazon S3 (Simple Storage Service)</h2>
+      <p>Object storage built to retrieve any amount of data from anywhere. Ideal for backups, media hosting, and data lakes.</p>
+    </section>
+
+    <section class="card">
+      <h2>AWS Lambda</h2>
+      <p>A serverless compute service that lets you run code in response to events without provisioning or managing servers.</p>
+    </section>
+
+    <section class="card">
+      <h2>Amazon RDS (Relational Database Service)</h2>
+      <p>Simplifies setting up, operating, and scaling relational databases like PostgreSQL, MySQL, and MariaDB in the cloud.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 AWS Cloud Overview Demo</p>
+  </footer>
+
 </body>
-
 </html>
